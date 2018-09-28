@@ -19,12 +19,12 @@ public class Launch {
 			else if(house > 21) {
 			System.out.println("youre both bust, its a draw");
 		}
+		}
 		
 		if(playertotal < 22) {
 			if(house > 21) {
 				System.out.println("house is bust, you win");
 			}
-		}
 			else if(house < 22) {
 				if(playertotal > house) {
 					System.out.println("you win");
